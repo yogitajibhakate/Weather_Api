@@ -25,7 +25,7 @@ This app lets you search for any city and view real-time weather details along w
 
 ## 📬 Contact
 
-Feel free to connect with me through my portfolio or reach out via [LinkedIn](https://www.linkedin.com/in/yogita-jibhakate/) or [GitHub](https://github.com/yogitajibhakate).
+Feel free to connect with me through my project or reach out via [LinkedIn](https://www.linkedin.com/in/yogita-jibhakate/) or [GitHub](https://github.com/yogitajibhakate).
 
 ---
 
