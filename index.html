@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherSphere - Modern Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<div class="container">
+    <div class="app-container">
+        <header>
+            <div class="app-title">
+                <i class="fas fa-cloud-sun"></i>
+                <h1>WeatherSphere</h1>
+            </div>
+            <div class="current-time" id="current-time">Loading time...</div>
+        </header>
+        
+        <div class="search-box">
+            <input type="text" placeholder="Enter city name..." id="city-input">
+            <button id="search-btn">
+                <i class="fas fa-search"></i> Search
+            </button>
+        </div>
+        
+        <div class="error-message" id="error-message">
+            <i class="fas fa-exclamation-triangle"></i> 
+            <span id="error-text">City not found. Please try again.</span>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="today">
+                <div class="city-info">
+                    <h2 id="city">New York</h2>
+                    <div class="current-date" id="current-date">Monday, June 10, 2023</div>
+                </div>
+                
+                <div class="weather-icon">
+                    <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather Icon" id="today-weather-icon">
+                </div>
+                
+                <div class="temperature" data-value="temperature">24</div>
+                
+                <div class="weather-details">
+                    <div class="detail-card">
+                        <i class="fas fa-wind"></i>
+                        <h3>Wind Speed</h3>
+                        <p><span data-value="wind-speed">5.2</span> km/h</p>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <i class="fas fa-tint"></i>
+                        <h3>Humidity</h3>
+                        <p><span data-value="humidity-level">65</span>%</p>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <i class="fas fa-compress-arrows-alt"></i>
+                        <h3>Pressure</h3>
+                        <p><span id="pressure-value">1015</span> hPa</p>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <i class="fas fa-sun"></i>
+                        <h3>UV Index</h3>
+                        <p><span id="uv-value">4.2</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="day-forecast">
+                <h3 class="section-title"><i class="fas fa-calendar-alt"></i> 5-Day Forecast</h3>
+                <div class="forecast-container" id="forecast-container">
+                    <!-- Forecast cards will be inserted here -->
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Powered by Yogita | WeatherSphere © 2025</p>
+        </footer>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
