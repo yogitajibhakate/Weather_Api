@@ -1,4 +1,4 @@
-# 🌦️ WeatherSphere - Weather Forecast App
+#  🌦️ WeatherSphere - Weather Forecast App
 Welcome to WeatherSphere, a responsive weather forecast web application!
 This app lets you search for any city and view real-time weather details along with a 5-day forecast. It’s designed with a clean layout and a smooth, user-friendly experience.
 
