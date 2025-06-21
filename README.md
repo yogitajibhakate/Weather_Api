@@ -1,35 +1,49 @@
 🌦️ WeatherSphere - Weather Forecast App
-Welcome to WeatherSphere, a responsive weather forecast app! This site provides real-time weather details and a 5-day forecast using the OpenWeatherMap API. It's built with a clean layout and smooth user experience.
+Welcome to WeatherSphere, a responsive weather forecast web application!
+This app lets you search for any city and view real-time weather details along with a 5-day forecast. It’s designed with a clean layout and a smooth, user-friendly experience.
 
 🚀 Live Site: View Weather App
-👉 https://ornate-daffodil-d4f4bc.netlify.app/
+👉 https://ornate-daffodil-d4f4bc.netlify.app
+(Replace with your actual Netlify link if different)
 
 📁 Features
-Fully responsive design for all screen sizes
+✅ Fully responsive design for all screen sizes
 
-Search any city and get live weather updates
+🔍 Search any city for live weather updates
 
-Displays current temperature, wind speed, humidity, and pressure
+🌡️ Displays:
 
-Shows real-time date and time
+Temperature
 
-Displays 5-day weather forecast with icons and descriptions
+Humidity
 
-Remembers last searched city using LocalStorage
+Wind speed
 
-Error handling for invalid city names or connection issues
+Atmospheric pressure
+
+🕒 Real-time date and time updates
+
+📅 5-day forecast with weather icons and descriptions
+
+💾 Stores last searched city using LocalStorage
+
+❗ Error handling for invalid input or connection issues
 
 🛠️ Technologies Used
-HTML
+🧱 HTML
 
-CSS
+🎨 CSS
 
-JavaScript
+🧠 JavaScript
 
-OpenWeatherMap API
+☁️ OpenWeatherMap API
 
 📬 Contact
-Feel free to connect with me through this project or reach out via LinkedIn or GitHub.
+Feel free to connect with me through this project or reach out via:
+
+🔗 GitHub – Yogita Jibhakate
+
+🔗 LinkedIn – Yogita Jibhakate
 
 ⭐️ Check out the live site here:
-👉 https://ornate-daffodil-d4f4bc.netlify.app/
+👉 https://ornate-daffodil-d4f4bc.netlify.app
