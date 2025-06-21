@@ -1,38 +1,33 @@
 🌦️ WeatherSphere - Weather Forecast App
-Welcome to WeatherSphere, a simple and responsive weather forecast web application. This site allows users to search any city and view the current weather along with a 5-day forecast in a clean, user-friendly design.
+Welcome to WeatherSphere, a clean and responsive weather app built using HTML, CSS, and JavaScript. This project allows users to search for any city and get real-time weather details along with a 5-day forecast using the OpenWeatherMap API.
 
-🚀 Live Site:
-👉 Check out the live weather app
+🚀 Live Site
+👉 View WeatherSphere
+(Replace the link if you have a different Netlify deployment for this app)
 
-(Replace with your actual Netlify link)
+📁 Project Features
+Fully responsive design for all devices
 
-📁 Features
-🔍 Search weather by city name
+Displays current weather (temperature, wind, humidity, pressure)
 
-🌡️ Displays current temperature, humidity, wind speed, and pressure
+5-day forecast with weather icons and descriptions
 
-🕒 Shows real-time date and time updates
+Real-time date and time updates
 
-🌤️ Shows weather icon and description
+LocalStorage support (remembers last searched city)
 
-📅 Displays a 5-day forecast (1 forecast per day)
+Handles errors for invalid city names or network issues
 
-💾 Remembers last searched city using LocalStorage
-
-❗ Error handling for invalid city or no internet
-
-📱 Fully responsive design for all screen sizes
+Simple and user-friendly UI
 
 🛠️ Technologies Used
-HTML5
+HTML
 
-CSS3
+CSS
 
 JavaScript
 
 OpenWeatherMap API
 
 📬 Contact
-Feel free to connect with me through this project:
-
-
+Feel free to connect with me through the app 
